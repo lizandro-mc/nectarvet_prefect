@@ -1,0 +1,42 @@
+
+ 1708  dbt seed
+ 1709  dbt run
+ 1710  python -m venv venv
+ 1711  code .
+ 1712  source /home/lizandro/Documents/job/nectar_data_stack/nectarvet-server-oficial/server/venv/bin/activate
+ 1713  clear
+ 1714  pip install -U prefect
+ 1715  sqlite3 --version
+ 1716  pip install -U sqlite3
+ 1717  sudo apt-get install sqlite
+ 1718  prefect version
+ 1719  sudo apt-get install sqlite3
+ 1720  sqlite3 --version
+ 1721  prefect orion start
+ 1722  . /venv/bin/activate
+ 1723  source /venv/bin/activate
+ 1724  source venv/bin/activate
+ 1725  clear
+ 1726  python main.py
+ 1727  prefect --version
+ 1728  source /home/lizandro/Documents/job/nectar_data_stack/nectarvet-server-oficial/server/venv/bin/activate
+ 1729  clear
+ 1730  python main.py
+ 1731  pip freeze
+ 1732  pip freeze > requirements.txt
+ 1733  pip install clickhouse-connect
+ 1734  pip freeze > requirements.txt
+ 1735  python -m pip install "pymongo[srv]"
+ 1736  pip install python-dateutil
+ 1737  python main.py
+ 1738  pip install pandas
+ 1739  python main.py
+ 1740  prefect deployment build flows/main.py:flow_treatments -n treatments -q test
+ 1741  prefect deployment build ./main.py:flow_treatments -n treatments -q test
+ 1742  prefect deployment apply
+ 1743  prefect deployment apply flow_treatments-deployment.yaml
+ 1744  prefect deployment build ./main.py:flow_treatments -n treatments -q nectar
+ 1745  prefect deployment apply flow_treatments-deployment.yaml
+ 1746  prefect agent start --work-queue "nectar" 
+ 1747  source /home/lizandro/Documents/job/nectar_data_stack/nectarvet-server-oficial/server/venv/bin/activate
+ 1748  history
